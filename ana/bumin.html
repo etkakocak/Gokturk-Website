@@ -6,67 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bumin Generation</title>
     <link rel="icon" href="/img1/icon.png" type="image/png">
-    <style>
-        body {
-            background: #dddddd;
-            font-size: 20px;
-        }
-        .containers {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-            grid-auto-rows: minmax(200px, auto);
-            gap: 50px; 
-            box-sizing: border-box;
-            margin: 5px;
-            padding: 5px;
-            margin-right: 50px;
-            margin-left: 50px;
-        }
-        .container {
-            background-color: #ffffff;
-            border-radius: 8px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-        }
-        .container img {
-            width: 250px;
-            height: auto;
-            border-radius: 150px;
-            overflow: hidden;
-            margin-top: 40px;
-        }
-        .container button {
-            margin-bottom: 40px;
-            background-color: #ff4f4f;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            border: none;
-        }
-        .container button a {
-            color: white;
-            text-decoration: none;
-        }
-        .container button:hover {
-            opacity: 0.8;
-        }
-        .headerpage {
-            font-size: 25px;
-            color: #3b4045;
-            padding-left: 25px;
-            font-weight: lighter;
-        }
-        .info {
-            font-size: 22px;
-            text-align: center;
-            margin-top: 90px;
-            margin-bottom: 90px;
-            font-weight: bold;
-        }
-    </style>
+    <link href="/styles/sbumin.css" rel="stylesheet">
 </head>
 <body>
     <header class="headerpage">
@@ -227,6 +167,6 @@
     </div>
 
     <div style="margin: 30px;">©<span id="curyear"></span> Kocak | All Rights Reserved</div>
-    <script src="/ana/licenseyear.js"></script>
+    <script src="/scripts/licenseyear.js"></script>
 </body>
 </html>

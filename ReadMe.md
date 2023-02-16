@@ -1,5 +1,5 @@
 # Project Name: Gokturk Website
-**Version: 1.0.0**  
+**Version: 1.0.2**  
 
 ## Description
 ``HTML, CSS and JavaScript`` which are the most common technologies of ``web development`` were used  in this project. The website presents the history of a state in the 7th century with visuals in a beautiful and simple way to understand. It is my personal project and not a school project.  
@@ -11,21 +11,32 @@ Today, front-end is a highly automated technology, even people who don't know an
 With front-end automation, more professional designs can be made much easier. However, I did not use any ready-made design or front-end automation for this project, I wanted to see what I knew and how much I could do by myself, and I wrote all the codes and made all the designs myself.  
 
 ## Content
-The start screen of the website is in the ``index.html`` file and it uses the ``style.css`` and ``script.js`` files.  
-The ``/ana`` folder contains HTML files containing other pages that can be navigated by clicking the menus on the start screen of the website.
+The start screen of the website is in the ``index.html`` file and it uses the ``style.css`` in ``/styles`` folder and ``script.js`` in ``/scripts`` folder.  
+
+The ``/ana`` folder contains HTML files containing other pages that can be navigated by clicking the menus on the start screen of the website.  
+
 The ``/img{number}`` folders contain images used on the website. All images except the flag are my own design. Some of these images were designed with ``Midjourney AI``, and some of them were designed with the character design screen in the video game ``Crusader Kings II``. The copyrights of these images belong to me.  
+
 None of the mp3 files in the ``/musics`` folder belong to me, the sources of all mp3 files are indicated in the ``musics.html`` file and on the website. All copyright owners of the music are clearly stated.  
-The ``/dictionary`` file contains JavaScript programs used in ``language.html`` and two small databases in txt format.  
+
+The ``/scripts`` folder contains JavaScript programs that used in the HTML files.  
+
+The ``/styles`` folder contains CSS files that used for the HTML files.  
+
+The ``/dictionary`` folder in ``/scripts`` folder contains JavaScript programs used in ``language.html`` and two small databases in txt format.  
 This project and website have been developed purely for educational purposes and not for commercial purposes.  
 
 ## Setup
 There is no domain or link to the website yet.  
 Follow the steps to preview the website:  
-1. Open the project in the ``Vscode`` program by adding ``vscode.dev/`` to the beginning of the ``repository link``.  
+1. Open the project in the ``Visual Studio Code`` program by adding ``vscode.dev/`` to the beginning of the ``repository link``.  
 2. Open the ``index.html`` file.  
 3. Press the ``open preview`` button from the top right to reach the website.  
 ``vscode.dev/https://github.com/etkakocak/Gokturk-Website``
 
 ## Version status
 The project is still under development.  
-* Version: 1.0.0 
+
+*Read about update notes:*
+* [Version: 1.0.0](/updates/v1-0-0.md)  
+* [Version: 1.0.2](/updates/v1-0-2.md)  

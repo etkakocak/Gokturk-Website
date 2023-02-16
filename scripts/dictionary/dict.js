@@ -4,7 +4,7 @@ const resultDiv = document.getElementById('result');
 let wordsToMatch = [];
 let wordsResults = [];
 
-fetch('/dictionary/turkishwords.txt')
+fetch('/scripts/dictionary/turkishwords.txt')
   .then(response => response.text())
   .then(data => {
     const lines = data.split('\n');
@@ -14,7 +14,7 @@ fetch('/dictionary/turkishwords.txt')
   })
   .catch(error => console.error(error));
 
-fetch('/dictionary/turkicwords.txt')
+fetch('/scripts/dictionary/turkicwords.txt')
   .then(response => response.text())
   .then(data => {
     const lines2 = data.split('\n');
