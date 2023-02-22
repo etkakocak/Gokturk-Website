@@ -40,6 +40,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+.menu-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto;
+}
 ul {
   list-style: none;
   border-style: solid;
@@ -56,12 +62,4 @@ li a {
 }
 li a:hover {
   background-color: #eee;
-}
-img {
-    width: 400px;
-}
-@media screen and (min-width: 768px) {
-    img {
-        width: 700px;
-    }
 }

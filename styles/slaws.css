@@ -40,8 +40,11 @@ body {
 .sources {
   text-align: center;
   margin: 0;
-  padding: 20px 0;
-  background-color: white;
+  padding: 10px 0;
+  background-color: #ffffff;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
 }
 ul {
   list-style: none;
